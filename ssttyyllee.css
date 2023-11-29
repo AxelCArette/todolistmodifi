@@ -1,0 +1,246 @@
+*
+{
+margin: 0;
+padding: 0;
+font-family: 'Crimson Text', serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Noto Sans Kawi', sans-serif;
+}
+.inscriptionetconnexion
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/chattodolist.png);
+    display: flex;
+    background-size: cover;
+    position: relative;
+}
+.statut
+{
+    background-color: #527D80;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.babache
+{
+    margin-top: 10px;
+}
+.statut:hover
+{
+    opacity: 25%;
+}
+.formform
+{
+    color: white;
+    margin-top: 200px;
+    width: 300px;
+    text-align: center;
+    margin-left: 350px;
+    height: 500px;
+    background-color:rgba(143, 11, 11, 0.4);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+
+}
+.formulaires{
+    width: 80%;
+    margin-left: 10%;
+}
+.name{
+    margin-top: 15px;
+}
+.btnposition{
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+.couleurbtn
+{
+    font-weight: 800;
+    letter-spacing: 1px;
+    background-color:#bf6f3a;
+    width: 120px;
+    height: 50px;
+
+}
+.seconnecter {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/todolistsanschat.png);
+    background-size: cover;
+    display: flex;
+}
+.formseconnecter
+{
+    color: white;
+    margin-top: 300px;
+    width: 300px;
+    text-align: center;
+    margin-left: 1000px;
+    height: 350px;
+    background-color:rgba(143, 11, 11, 0.4);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding-top: 20px;
+}
+.titreh1
+{
+    padding-top: 10px;
+    color: white;
+}
+
+.btnpositionco{
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-around;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+.ajouttaches{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+    align-items: center;
+}
+.fondchecklist
+{
+    color: white;
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/totolist.png);
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+}
+.btntaches {
+    background-color: #FF5449;
+    border: solid white 1px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.liste 
+{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 300px;
+    margin-left: 200px;
+    display:flex;
+    flex-direction: column;
+    width: 600px;
+    background-color:#9932324d;
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    text-align: center;
+}
+.btntache
+{
+    background-color:#527D80;
+    border-radius: 10px;
+    text-align: center;
+    border: solid white 1px ;
+}
+.titre{
+    display: none;
+}
+.btndisconnect
+{
+    background-color:#FF5449;
+    border: solid white 1px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 650px;
+}
+
+.textsignature 
+{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    font-size: 15px;
+}
+p{
+    margin-bottom: 0;
+}
+.formtache {
+    display:flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+}
+@media (max-width: 1250px) {
+    .titre {
+        display: block;
+        width: 80%;
+
+    }
+    .titre img 
+    {
+        width: 100%;
+    }
+
+.fondchecklist , .inscriptionetconnexion , .seconnecter
+{
+    background-image: url(images/fondrespon.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.seconnecter,.inscriptionetconnexion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formseconnecter{
+
+    width: 80%;
+    margin: 0;
+    
+
+}
+
+.couleurbtn{
+    width: 80%;
+}
+.formform{
+    margin: 0;
+    width: 80%;
+    position: relative;
+
+}
+.formco{
+    width: 100%;
+    position: absolute;
+    bottom: -10%;
+}
+.liste{
+    margin: 0;
+    width: 80%;
+}
+.btndisconnect{
+    margin-left: 100px;
+}
+
+ }
+ @media (max-width: 800px) {
+ 
+.ajouttaches{
+    margin: 0;
+}
+.couleurbtn{
+    height: auto;
+}
+
+}
